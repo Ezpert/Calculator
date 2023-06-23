@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="517.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="92.0" layoutX="17.0" layoutY="15.0" stroke="#334dd0" strokeType="INSIDE" width="327.0" />
+      <Label fx:id="myLabel" alignment="CENTER_RIGHT" layoutX="24.0" layoutY="15.0" prefHeight="92.0" prefWidth="316.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe UI Semibold" size="36.0" />
+         </font>
+      </Label>
+      <VBox layoutX="99.0" layoutY="209.0" prefHeight="216.0" prefWidth="68.0" spacing="20.0">
+         <children>
+            <Button fx:id="button8" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="8">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button5" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="5">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="2">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="271.0" layoutY="120.0" prefHeight="371.0" prefWidth="68.0" spacing="20.0">
+         <children>
+            <Button fx:id="dButton" mnemonicParsing="false" onAction="#operator" prefHeight="61.0" prefWidth="68.0" text="÷">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="mButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#operator" prefHeight="61.0" prefWidth="80.0" text="×">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="sButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#operator" prefHeight="61.0" prefWidth="80.0" text="-">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="aButton" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#operator" prefHeight="62.0" prefWidth="68.0" text="+">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="eButton" layoutX="10.0" layoutY="253.0" mnemonicParsing="false" onAction="#math" prefHeight="66.0" prefWidth="68.0" text="=">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="17.0" layoutY="209.0" prefHeight="216.0" prefWidth="68.0" spacing="20.0">
+         <children>
+            <Button fx:id="button7" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="7">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button4" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="4">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button1" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="1">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <VBox layoutX="184.0" layoutY="209.0" prefHeight="216.0" prefWidth="68.0" spacing="20.0">
+         <children>
+            <Button fx:id="button9" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="9">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button6" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="6">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="button3" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="80.0" text="3">
+               <font>
+                  <Font name="Segoe UI Emoji" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="button0" layoutX="99.0" layoutY="437.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="68.0" text="0">
+         <font>
+            <Font name="Segoe UI Emoji" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="clearButton" layoutX="17.0" layoutY="130.0" mnemonicParsing="false" onAction="#clear" prefHeight="61.0" prefWidth="149.0" text="Clear" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe UI Emoji" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="dotButton" layoutX="184.0" layoutY="437.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="68.0" text=".">
+         <font>
+            <Font name="Segoe UI Emoji" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="myLabel1" layoutX="26.0" layoutY="14.0" opacity="0.8" prefHeight="30.0" prefWidth="316.0" textAlignment="CENTER">
+         <font>
+            <Font name="Segoe UI Semibold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="negButton" layoutX="17.0" layoutY="437.0" mnemonicParsing="false" onAction="#buttonInput" prefHeight="61.0" prefWidth="68.0" text="±">
+         <font>
+            <Font name="Segoe UI Emoji" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
